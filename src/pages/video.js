@@ -4,12 +4,12 @@ import Header from "../components/header"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
 
-export default function Home() {
+export default function Video() {
   return (
     <div id="content">
-      <Seo title="Home" />
+      <Seo title="Video Production" />
       <Layout>
-        <Header headerText="Home" />
+        <Header headerText="Video Production" />
       </Layout>
     </div>
   );
