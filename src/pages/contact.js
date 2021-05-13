@@ -8,11 +8,13 @@ export default function Contact() {
   return (
     <div id="content">
       <Seo title="Contact" />
-      <Layout>
-        <Header headerText="Contact" />
-        <p>Send us a message!</p>
-        <p>Email: <a href="mailto:onni.bucht@me.com">onni.bucht@me.com</a></p>
-        <p>Instagram: <a href="https://instagram.com/onni82">@onni82</a> &amp; <a href="https://instagram.com/onbprod">@onbprod</a></p>
+      <Layout pageProp="contact">
+        <div id="page">
+          <Header headerText="Contact" />
+          <p>Send us a message!</p>
+          <p>Email: <a href="mailto:emanuel.bucht@icloud.com">emanuel.bucht@icloud.com</a></p>
+          <p>Instagram: <a href="https://instagram.com/onni82">@onni82</a> &amp; <a href="https://instagram.com/onbprod">@onbprod</a></p>
+        </div>
       </Layout>
     </div>
   );

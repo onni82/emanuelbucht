@@ -8,8 +8,13 @@ export default function Video() {
   return (
     <div id="content">
       <Seo title="Video Production" />
-      <Layout>
-        <Header headerText="Video Production" />
+      <Layout pageProp="video">
+        <div id="page">
+          <Header headerText="Video Production" />
+          <h2>Lightyear Loopers - Do You Want To?</h2>
+          <p>Filming and video editing.</p>
+          <p><a href="https://youtu.be/SltWgUFtjzA">YouTube</a></p>
+        </div>
       </Layout>
     </div>
   );
