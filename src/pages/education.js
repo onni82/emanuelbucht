@@ -16,7 +16,7 @@ export default function Education() {
           <hr />
           <Header headerText="Certifications" />
           <h2>Avid Pro Tools</h2>
-          <p>Certified User</p>
+          <p>Certified User - PT101+PT110</p>
         </div>
       </Layout>
     </div>
