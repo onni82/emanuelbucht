@@ -13,13 +13,13 @@ export default function Voice() {
           <Header headerText="Voice Acting" />
           <h2>Aragami 2 (2021 Video Game)</h2>
           <p>Voice acting as Nobu and Iwao.</p>
-          <p><a href="https://youtu.be/m9sTgup3DOI?t=697">Nobu - cutscene</a></p>
-          <p><a href="https://youtu.be/m9sTgup3DOI?t=1045">Iwao - interaction</a></p>
-          <p><a href="https://youtu.be/m9sTgup3DOI?t=1406">Iwao - interaction</a></p>
-          <p><a href="https://youtu.be/koua8-K1oCQ?t=1825">Iwao - interaction</a></p>
+          <p><a href="https://youtu.be/m9sTgup3DOI?t=697" target="_blank">Nobu - cutscene</a></p>
+          <p><a href="https://youtu.be/m9sTgup3DOI?t=1045" target="_blank">Iwao - interaction</a></p>
+          <p><a href="https://youtu.be/m9sTgup3DOI?t=1406" target="_blank">Iwao - interaction</a></p>
+          <p><a href="https://youtu.be/koua8-K1oCQ?t=1825" target="_blank">Iwao - interaction</a></p>
           <hr />
           <h2>The Story of Cereal by Thais Hull (A friend's school assignment)</h2>
-          <p><a href="https://youtu.be/VTKLzcU3Eks">All voices</a></p>
+          <p><a href="https://youtu.be/VTKLzcU3Eks" target="_blank">All voices</a></p>
         </div>
       </Layout>
     </div>
