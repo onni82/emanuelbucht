@@ -13,7 +13,7 @@ export default function Video() {
           <Header headerText="Video Production" />
           <h2>Lightyear Loopers - Do You Want To?</h2>
           <p>Filming and video editing.</p>
-          <p><a href="https://youtu.be/SltWgUFtjzA">YouTube</a></p>
+          <p><a href="https://youtu.be/SltWgUFtjzA" target="_blank">YouTube</a></p>
         </div>
       </Layout>
     </div>

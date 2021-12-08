@@ -13,9 +13,9 @@ export default function Music() {
           <Header headerText="Music Writing" />
           <h2>ONB singles &amp; EPs</h2>
           <p>Music writing, lyric writing, mixing, mastering.</p>
-          <p><a href="https://soundcloud.com/onbprod/albums">SoundCloud</a></p>
-          <p><a href="https://open.spotify.com/artist/5M7FyeKVvZ7I1gRRb5nIhw?si=pTpE5b4MTaSCJa__mWfIiA">Spotify</a></p>
-          <p><a href="https://music.apple.com/se/artist/onb/1455795243?l=en">Apple Music</a></p>
+          <p><a href="https://soundcloud.com/onbprod/albums" target="_blank">SoundCloud</a></p>
+          <p><a href="https://open.spotify.com/artist/5M7FyeKVvZ7I1gRRb5nIhw?si=pTpE5b4MTaSCJa__mWfIiA" target="_blank">Spotify</a></p>
+          <p><a href="https://music.apple.com/se/artist/onb/1455795243?l=en" target="_blank">Apple Music</a></p>
           <br />
         </div>
       </Layout>
