@@ -17,6 +17,7 @@ export default function Layout({ pageProp, children }) {
           <ListLink to="/" className={pageProp == "home" && "active"}>HOME</ListLink>
           <ListLink to="/video" className={pageProp == "video" && "active"}>VIDEO PRODUCTION</ListLink>
           <ListLink to="/audio" className={pageProp == "audio" && "active"}>AUDIO ENGINEERING</ListLink>
+          <ListLink to="/sound" className={pageProp == "sound" && "active"}>SOUND DESIGN</ListLink>
           <ListLink to="/music" className={pageProp == "music" && "active"}>MUSIC WRITING</ListLink>
           <ListLink to="/voice" className={pageProp == "voice" && "active"}>VOICE ACTING</ListLink>
           <ListLink to="/education" className={pageProp == "education" && "active"}>EDUCATION</ListLink>
