@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
@@ -10,13 +9,18 @@ export default function Music() {
       <Seo title="Music Writing" />
       <Layout pageProp="music">
         <div id="page">
-          <Header headerText="Music Writing" />
-          <h2>ONB singles &amp; EPs</h2>
-          <p>Music writing, lyric writing, mixing, mastering.</p>
-          <p><a href="https://soundcloud.com/onbprod/albums" target="_blank">SoundCloud</a></p>
-          <p><a href="https://open.spotify.com/artist/5M7FyeKVvZ7I1gRRb5nIhw?si=pTpE5b4MTaSCJa__mWfIiA" target="_blank">Spotify</a></p>
-          <p><a href="https://music.apple.com/se/artist/onb/1455795243?l=en" target="_blank">Apple Music</a></p>
-          <br />
+          <Header headerText="Music Writing" className="centered" />
+          <div className="grid">
+            <div class="td yellow img_onb">
+              <a href="https://linktr.ee/onbprod" target="_blank" rel="noreferrer nofollow">
+                <div class="hidden">#</div>
+                <div class="captionyellow">
+                  <h2 className="tb">ONB's singles &amp; EPs</h2>
+                  <h3 className="tb">Music writing, lyric writing, mixing, mastering</h3>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </Layout>
     </div>

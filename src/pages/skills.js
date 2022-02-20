@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
@@ -10,7 +9,7 @@ export default function Skills() {
       <Seo title="Skills and Tools" />
       <Layout pageProp="skills">
         <div id="page">
-          <Header headerText="Skills" />
+          <Header headerText="Skills" className="centered" />
           <h2>Media Skills</h2>
           <p>Music writing, lyric writing, audio engineering, music production &amp; video production</p>
           <h2>Languages</h2>
@@ -18,9 +17,11 @@ export default function Skills() {
           <hr />
           <Header headerText="Tools" />
           <h2>Operative Systems</h2>
-          <p>Windows, macOS (previously known as Mac OSX), Ubuntu (Desktop &amp; Server)</p>
+          <p>Windows, macOS (Mac OSX), Ubuntu (Desktop &amp; Server)</p>
           <h2>Digital Audio Workstations</h2>
-          <p>Avid Pro Tools, Image-Line FL Studio &amp; Apple Logic</p>
+          <p>Avid Pro Tools, Image-Line FL Studio &amp; Apple Logic Pro</p>
+          <h2>Video Editing Software</h2>
+          <p>Adobe Premiere Pro, Avid Media Composer, Apple Final Cut Pro</p>
         </div>
       </Layout>
     </div>

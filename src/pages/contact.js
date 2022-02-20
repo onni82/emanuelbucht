@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
@@ -10,10 +9,10 @@ export default function Contact() {
       <Seo title="Contact" />
       <Layout pageProp="contact">
         <div id="page">
-          <Header headerText="Contact" />
-          <p>Send us a message!</p>
+          <Header headerText="Contact" className="centered" />
+          <p>Send me a message!</p>
           <p>Email: <a href="mailto:emanuel.bucht@icloud.com">emanuel.bucht@icloud.com</a></p>
-          <p>Instagram: <a href="https://instagram.com/onni82" target="_blank">@onni82</a> &amp; <a href="https://instagram.com/onbprod" target="_blank">@onbprod</a></p>
+          <p>Instagram: <a href="https://instagram.com/onni82" target="_blank" rel="noreferrer nofollow">@onni82</a> &amp; <a href="https://instagram.com/onbprod" target="_blank" rel="noreferrer nofollow">@onbprod</a></p>
         </div>
       </Layout>
     </div>
