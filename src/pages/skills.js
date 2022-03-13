@@ -15,7 +15,7 @@ export default function Skills() {
           <h2>Languages</h2>
           <p>English, Swedish &amp; some Korean</p>
           <hr />
-          <Header headerText="Tools" />
+          <Header headerText="Tools" className="centered" />
           <h2>Operative Systems</h2>
           <p>Windows, macOS (Mac OSX), Ubuntu (Desktop &amp; Server)</p>
           <h2>Digital Audio Workstations</h2>

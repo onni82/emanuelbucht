@@ -2,7 +2,6 @@ import React from "react"
 import Header from "../components/header"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
-import Lightyear from "../images/lightyearloopers.png"
 
 export default function Video() {
   return (
@@ -15,13 +14,14 @@ export default function Video() {
             <div class="td darkgrey img_lightyearloopers">
               <a href="https://youtu.be/SltWgUFtjzA" target="_blank" rel="noreferrer nofollow">
                 <div class="hidden">#</div>
-                <div class="captiondarkgrey">
+                <div class="caption cdarkgrey">
                   <h2 className="tb">Lightyear Loopers - Do You Want To?</h2>
                   <h3 className="tb">Filming and video editing</h3>
                 </div>
               </a>
             </div>
           </div>
+          <br />
         </div>
       </Layout>
     </div>

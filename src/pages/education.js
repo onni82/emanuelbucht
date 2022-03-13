@@ -3,7 +3,7 @@ import Header from "../components/header"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
 import Hda from "../images/hda.png"
-import Avid from "../images/avid-cert-logo-pt-user_2020.jpg"
+import Avid from "../images/avid-cert-logo-pt-user_2020.png"
 import BeLicensed from "../images/belicensed.png"
 
 export default function Education() {
@@ -28,7 +28,7 @@ export default function Education() {
           <p>2018-2021 - Bachelor of Science - Sound and Music Production</p>
           <p>Falun, Sweden</p>
           <hr />
-          <Header headerText="Certifications" />
+          <Header headerText="Certifications" className="centered" />
           <img src={Avid} alt="Avid Logo" height="55" className="skillLogo" />
           <h2>Avid Pro Tools</h2>
           <p>Certified User - version 2020 and version 12.8</p>

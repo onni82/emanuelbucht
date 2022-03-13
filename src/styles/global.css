@@ -12,13 +12,11 @@ body,html {
 }
 body {
 	zoom: 1;
-	/*font-family: Ubuntu, Helvetica, Arial, sans-serif;*/
 	font-family: 'Quicksand', sans-serif;
-	/*color: #808285;*/
-	color: rgb(78 87 104);
+	color: rgb(78, 87, 104);
 	margin: 0;
 	min-width: 320px;
-	background-color: rgb(255,255,255);
+	background-color: rgb(231, 255, 240);
 	background-size: 100% auto;
 }
 div {
@@ -30,44 +28,29 @@ div {
 	height: 100vh;
 }
 #header {
-	/*padding-bottom: 1em;*/
 	display: flex;
 	flex-wrap: wrap;
-	/*border-bottom: 1px solid rgb(232,232,232)!important;*/
 	flex: 0 1 auto;
 }
-/*p.headertitle {
-	margin: 0 1rem 1rem;
-}*/
-/*#header>a,#header>p {
-	padding-left: 1em;
-	padding-right: 0;
-	display: initial;
-}*/
-#header>ul {
-	/*border-bottom: 1px solid rgb(232,232,232)!important;*/
+#header>ul,ul.centered {
 	padding-left: 1%;
 	padding-right: 1%;
 	text-align: center;
-	margin-left: auto;
 	list-style: none;
 }
 img.headerimg {
-	margin-top: 5px;
-	margin-left: 5px;
+	/*margin-top: 5px;
+	margin-left: 5px;*/
+	margin: auto;
+	padding-top: 1em;
 }
 img.skillLogo {
 	float: right;
 	padding-right: 1em;
 }
 #footer {
-	background-color: transparent;
-	background-image: linear-gradient(180deg,rgba(78,87,104,.1) 0%,#f7f7f8 100%);
-	/*position: absolute;*/
-	/*display: block;
-	bottom: 0;
-	width: 100%;*/
-	/*height: 5vh;*/
+	/*background-color: transparent;
+	background-image: linear-gradient(180deg, rgba(78, 87, 104, .1) 0%, #f7f7f8 100%);*/
 	height: 2rem;
 	flex: 0 1 40px;
 }
@@ -84,7 +67,7 @@ a.button {
 	letter-spacing: 1.8px;
 	fill: #fff;
 	color: #fff;
-	background-color: rgb(186,53,253);
+	background-color: rgb(186, 53, 253);
 	border-radius: 30px 30px 30px 30px;
 	padding: 17px 42px 17px 40px;
 	-webkit-transition: all .3s;
@@ -93,12 +76,14 @@ a.button {
 }
 a.button:hover,a.button:focus {
 	color: #fff;
-	background-color: rgba(206,114,253,.59);
+	background-color: rgba(206, 114, 253, .59);
 }
 #page {
 	width: 50%;
 	margin: auto;
 	flex: 1 1 auto;
+	/*border: 5px solid rgb(185, 185, 185);
+	border-radius: 5px;*/
 }
 li.headerlink {
 	display: inline-block;
@@ -108,25 +93,23 @@ li.headerlink {
 }
 .flextext {
 	display: flex;
-	/*flex-direction: row;
-	flex-wrap: nowrap;*/
 }
 a {
-	color: rgba(188,119,0,1);
+	color: rgba(188, 119, 0, 1);
 	text-decoration: none;
 }
-a[aria-current] {
-	color: rgb(0,0,0)!important;
+a[aria-current],a.active {
+	color: rgb(0, 0, 0)!important;
 }
 a:hover {
-	color: rgba(222,141,0,1);
+	color: rgba(222, 141, 0, 1);
 	text-decoration: none;
 }
-#page>h2 {
-	padding-left: 1%;
+#page>h1,#page>h2 {
+	padding: 0 2%;
 }
 #page>p {
-	padding-left: 2%;
+	padding: 0 2%;
 }
 h1,h2,h3,h4,h5,h6 {
 	margin-top: 0;
@@ -137,8 +120,6 @@ h1,h2,h3,h4,h5,h6,p {
 	margin-bottom: 10px;
 }
 p {
-	/*padding-left: 1%;
-	padding-right: 1%;*/
 	font-size: 1em;
 	margin-top: 5px;
 }
@@ -156,7 +137,7 @@ h3 {
 	text-align: center;
 }
 hr {
-	border-top: 1px dashed rgb(226,226,226)!important;
+	border-top: 1px dashed rgb(226, 226, 226)!important;
 	border-bottom: 0px;
 }
 ::selection {
@@ -165,13 +146,8 @@ hr {
 }
 .grid {
 	display: grid;
-	/*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
-	/* This is better for small screens, once min() is better supported */
-	/* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
-	/*grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 0));*/
-	grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 0));
+	grid-template-columns: repeat(auto-fit, minmax(min(207px, 100%), 0));
 	justify-content: center;
-	/*gap: 1rem;*/
 	gap: 2.3vw;
 }
 table {
@@ -185,29 +161,31 @@ h2.tb {
 	display: table-cell;
 	vertical-align: bottom;
 	text-align: center;
-	height: 100px;
+/*	height: 100px;*/
 	width: 200px;
-	/*font-size: 1vw;*/
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
 	font-weight: bold;
 	color: #fff;
-	margin: 0;
-	padding: 0;
+/*	margin: 0;
+	padding: 0;*/
 }
 h3.tb {
-	/*font-size: .75vw;*/
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
 	font-weight: normal;
 	color: #fff;
 	margin: 0;
-	padding: 0;
+	padding: 0 1%;
 	text-align: center;
-	box-shadow: 0 -1px 1px #d9e5d6;
+	/*box-shadow: 0 -1px 1px #d9e5d6;*/
 }
 td,.td {
 	width: 200px;
 	height: 200px;
 	padding: 0;
+	border-radius: 5px;
+	/*background: #444545;*/
+	background: rgb(96 195 195);
+	box-shadow: 7px 0 rgba(56, 56, 56, .35);
 }
 .hidden {
 	width: 200px;
@@ -216,66 +194,23 @@ td,.td {
 	text-indent: -9999px;
 	position: absolute;
 }
-.captionyellow {
+.caption {
 	width: auto;
-	height: 200px;
 	opacity: 1;
 	overflow: hidden;
-	transition: all .6s ease; 
-	background: rgba(247, 179, 43, .8);
+	transition: all .6s ease;
+	border-radius: 5px;
+	background: rgba(56, 56, 56, .8);
 }
-.captionred {
-	width: auto;
-	height: 200px;
-	opacity: 1;
-	overflow: hidden;
-	transition: all .6s ease; 
-	background: rgba(191, 78, 48, .8);
+.caption>h3 {
+	background: rgba(20, 20, 20, .8);
 }
-.captiongreen {
-	width: auto;
-	height: 200px;
-	opacity: 1;
-	overflow: hidden;
-	transition: all .6s ease; 
-	background: rgba(217, 229, 214, .8);
+.td:hover {
+	box-shadow: 7px 0 rgba(235, 13, 13, .35);
 }
-.captiondarkgrey {
-	width: auto;
-	height: 200px;
-	opacity: 1;
-	overflow: hidden;
-	transition: all .6s ease; 
-	background: rgba(68, 69, 69, .8);
-}
-.yellow {
-	background: #f7b32b;
-	box-shadow: .8vh .6vh rgba(247, 179, 43, .25);
-}
-.yellow:hover .captionyellow {
-	opacity: 0;
-}
-.red {
-	background: #bf4e30;
-	box-shadow: .8vh .6vh rgba(191, 78, 48, .25);
-	
-}
-.red:hover .captionred {
-	opacity: 0;
-}
-.green {
-	background: #d9e5d6;
-	box-shadow: .8vh .6vh rgba(217, 229, 214, .25);
-}
-.green:hover .captiongreen {
-	opacity: 0;
-}
-.darkgrey {
-	background: #444545;
-	box-shadow: .8vh .6vh rgba(68, 69, 69, .35);
-}
-.darkgrey:hover .captiondarkgrey {
-	opacity: 0;
+.td:hover .caption {
+	/*opacity: 0;*/
+	background: rgba(60, 60, 60, 1);
 }
 .hgap {
 	width: 2.3vw;
@@ -310,4 +245,70 @@ td,.td {
 .img_thaishull {
 	background-image: url("../images/thaishull.png");
 	background-size: cover;
+}
+.img_about {
+	/*background-image: url("../images/about.png");*/
+	/*background-size: cover;*/
+	background-image: url("../images/irasutoya/jikosyoukai_businessman.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img_audio {
+	/*background-image: url("../images/audio.png");*/
+	/*background-size: cover;*/
+	background-image: url("../images/irasutoya/music_audio_amp.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.img_contact {
+	/*background-image: url("../images/contact.png");*/
+	/*background-size: cover;*/
+	background-image: url("../images/irasutoya/jikosyoukai_businessman.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img_education {
+	/*background-image: url("../images/education.png");*/
+	/*background-size: cover;*/
+	background-image: url("../images/irasutoya/sotsugyou_graduation_gown_asia_man.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.img_music {
+	/*background-image: url("../images/music.png");*/
+	/*background-size: cover;*/
+	background-image: url("../images/irasutoya/music_headphone_side_man.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img_skills {
+	/*background-image: url("../images/skills.png");*/
+	/*background-size: cover;*/
+	background-image: url("../images/irasutoya/school_mark01_kokugo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.img_sound {
+	/*background-image: url("../images/sound.png");*/
+	/*background-size: cover;*/
+	background-image: url("../images/irasutoya/audio_craft_speaker_speaker_unit.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img_video {
+	/*background-image: url("../images/video.png");*/
+	/*background-size: cover;*/
+	background-image: url("../images/irasutoya/video_camera.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.img_voice {
+	/*background-image: url("../images/voice.png");*/
+	/*background-size: cover;*/
+	background-image: url("../images/irasutoya/job_seiyu_man.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }

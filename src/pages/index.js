@@ -9,17 +9,79 @@ export default function Home() {
     <div id="content">
       <Seo title="Home" />
       <Layout pageProp="home">
-        <div id="page">       
-          <Header headerText="A Professional Music Producer and Audio Engineer - Got Needs? Get In Touch Now!" />
+        <div id="page">
+          <Header headerText="Do You Need A Music Producer, Audio Engineer, Sound Designer, Voice Actor or a Video Producer?" className="centered" />
+          <p>Onni August Emanuel Bucht is the right person for your business.</p>
+          <p>With a Bachelor of Arts degree in Sound and Music Production and training in Video Production, he is perfect for any kind of visual or auditory production.</p>
+          <p>As he has studied foreign languages and cultures, he also has a good understanding of people. This means that any work together with him will go smoothly.</p>
           <br />
-          <p><Link to="/contact" className="button">CONTACT</Link></p>
+          <div className="grid">
+            <div class="td img_video">
+              <Link to="/video">
+                <div class="hidden">#</div>
+                <div class="caption">
+                  <h2 className="tb">Video Production</h2>
+                </div>
+              </Link>
+            </div>
+            <div class="td img_audio">
+              <Link to="/audio">
+                <div class="hidden">#</div>
+                <div class="caption">
+                  <h2 className="tb">Audio Engineering</h2>
+                </div>
+              </Link>
+            </div>
+            <div class="td img_sound">
+              <Link to="/sound">
+                <div class="hidden">#</div>
+                <div class="caption">
+                  <h2 className="tb">Sound Design</h2>
+                </div>
+              </Link>
+            </div>
+            <div class="td img_music">
+              <Link to="/music">
+                <div class="hidden">#</div>
+                <div class="caption">
+                  <h2 className="tb">Music Writing</h2>
+                </div>
+              </Link>
+            </div>
+            <div class="td img_voice">
+              <Link to="/voice">
+                <div class="hidden">#</div>
+                <div class="caption">
+                  <h2 className="tb">Voice Acting</h2>
+                </div>
+              </Link>
+            </div>
+            <div class="td img_education">
+              <Link to="/education">
+                <div class="hidden">#</div>
+                <div class="caption">
+                  <h2 className="tb">Education</h2>
+                </div>
+              </Link>
+            </div>
+            <div class="td img_skills">
+              <Link to="/skills">
+                <div class="hidden">#</div>
+                <div class="caption">
+                  <h2 className="tb">Skills & Tools</h2>
+                </div>
+              </Link>
+            </div>
+            <div class="td img_contact">
+              <Link to="/contact">
+                <div class="hidden">#</div>
+                <div class="caption">
+                  <h2 className="tb">About &amp; Contact</h2>
+                </div>
+              </Link>
+            </div>
+          </div>
           <br />
-          <br />
-          <br />
-          <h2>Music producer, audio engineer and video editor. Check out my portfolio for each category.</h2>
-          <p><Link to="/music">Music Writing</Link></p>
-          <p><Link to="/audio">Audio Engineering</Link></p>
-          <p><Link to="/video">Video Production</Link></p>
         </div>
       </Layout>
     </div>

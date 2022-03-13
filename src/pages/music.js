@@ -11,16 +11,17 @@ export default function Music() {
         <div id="page">
           <Header headerText="Music Writing" className="centered" />
           <div className="grid">
-            <div class="td yellow img_onb">
+            <div class="td darkgrey img_onb">
               <a href="https://linktr.ee/onbprod" target="_blank" rel="noreferrer nofollow">
                 <div class="hidden">#</div>
-                <div class="captionyellow">
+                <div class="caption cdarkgrey">
                   <h2 className="tb">ONB's singles &amp; EPs</h2>
                   <h3 className="tb">Music writing, lyric writing, mixing, mastering</h3>
                 </div>
               </a>
             </div>
           </div>
+          <br />
         </div>
       </Layout>
     </div>

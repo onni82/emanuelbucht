@@ -9,6 +9,7 @@ module.exports = {
     title: `Emanuel Bucht`,
     description: `Emanuel Bucht's portfolio`,
     author: `Emanuel Bucht`,
+    siteURL: 'https://emanuelbucht.netlify.app',
   },
   plugins: [
     {

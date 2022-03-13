@@ -10,7 +10,7 @@ export default function About() {
       <Layout pageProp="about">
         <div id="page">
           <Header headerText="About" className="centered" />
-          <p>Emanuel, a person who is interested in anything music and audio related, has been making music around 11 years.</p>
+          <p>Emanuel who is also called Onni, is a person who is interested in anything music and audio related, has been making music around 11 years.</p>
           <p>&nbsp;</p>
           <p>Before graduating from Dalarna University (in Falun, Sweden) with bachelor's degree in sound and music production, he released multiple singles and EPs under the name of ONB, many in collaboration during his final two years in university.</p>
           <p>&nbsp;</p>
