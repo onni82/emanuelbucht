@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Hda from "../images/hda.png"
 import Avid from "../images/avid-cert-logo-pt-user_2020.png"
 import BeLicensed from "../images/belicensed.png"
+import IrisHadar from "../images/irishadar.png"
 
 export default function Education() {
   return (
@@ -13,6 +14,16 @@ export default function Education() {
       <Layout pageProp="education">
         <div id="page">
           <Header headerText="Educational Experience" className="centered" />
+          <img src={IrisHadar} alt="Iris Hadar Komvux" height="55" className="skillLogo" />
+          <h2>Iris Hadar</h2>
+          <p>Nov 2023-Jan 2024 - Municipal Adult Education - Mathematics 2a</p>
+          <p>Stockholm/Södertälje, Sweden (online course)</p>
+          <hr />
+          <img src={IrisHadar} alt="Iris Hadar Komvux" height="55" className="skillLogo" />
+          <h2>Iris Hadar</h2>
+          <p>July 2023-Sep 2023 - Municipal Adult Education - Programming 1 (C++)</p>
+          <p>Stockholm/Södertälje, Sweden (online course)</p>
+          <hr />
           <img src={BeLicensed} alt="Be Licensed Logo" height="55" className="skillLogo" />
           <h2>Be Licensed</h2>
           <p>Feb 2022-Mar 2022 - Vocational Traing - Video Production</p>

@@ -11,13 +11,13 @@ export default function Skills() {
         <div id="page">
           <Header headerText="Skills" className="centered" />
           <h2>Media Skills</h2>
-          <p>Music writing, lyric writing, audio engineering, music production &amp; video production</p>
+          <p>Music writing, lyric writing, audio engineering &amp; music production</p>
           <h2>Languages</h2>
           <p>English, Swedish &amp; some Korean</p>
           <hr />
           <Header headerText="Tools" className="centered" />
           <h2>Operative Systems</h2>
-          <p>Windows, macOS (Mac OSX), Ubuntu (Desktop &amp; Server)</p>
+          <p>Windows, macOS, Ubuntu (Desktop &amp; Server)</p>
           <h2>Digital Audio Workstations</h2>
           <p>Avid Pro Tools, Image-Line FL Studio &amp; Apple Logic Pro</p>
           <h2>Video Editing Software</h2>
