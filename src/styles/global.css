@@ -46,7 +46,7 @@ img.headerimg {
 }
 img.skillLogo {
 	float: right;
-	padding-right: 1em;
+	/*padding-right: 1em;*/
 }
 #footer {
 	/*background-color: transparent;
