@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../components/header"
-import Seo from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from "../components/layout"
 import Hda from "../images/hda.png"
 import Avid from "../images/avid_certified.png"
@@ -10,7 +10,6 @@ import IrisHadar from "../images/irishadar.png"
 export default function Education() {
   return (
     <div id="content">
-      <Seo title="Educational Experience" />
       <Layout pageProp="education">
         <div id="page">
           <Header headerText="Educational Experience" className="centered" />
@@ -49,3 +48,7 @@ export default function Education() {
     </div>
   );
 }
+
+export const Head = () => (
+  <Seo title="Educational Experience" />
+)

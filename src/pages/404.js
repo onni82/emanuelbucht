@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
-import Seo from "../components/seo"
+import { Seo } from "../components/seo"
 const ListLink = props => (
   <li className="headerlink">
     <Link to={props.to}>{props.children}</Link>
@@ -11,7 +11,6 @@ const ListLink = props => (
 export default function error() {
   return (
     <div id="content">
-      <Seo title="Page not found" />
       <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
         <div id="header">
           <ul style={{ listStyle: `none`}}>
@@ -28,3 +27,7 @@ export default function error() {
     </div>
   )
 }
+
+export const Head = () => (
+  <Seo title="Page not found" />
+)

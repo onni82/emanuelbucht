@@ -1,12 +1,11 @@
 import React from "react"
 import Header from "../components/header"
-import Seo from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from "../components/layout"
 
 export default function Voice() {
   return (
     <div id="content">
-      <Seo title="Voice Acting" />
       <Layout pageProp="education">
         <div id="page">
           <Header headerText="Voice Acting" className="centered" />
@@ -81,3 +80,7 @@ export default function Voice() {
     </div>
   );
 }
+
+export const Head = () => (
+  <Seo title="Voice Acting" />
+)

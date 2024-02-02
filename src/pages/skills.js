@@ -1,12 +1,11 @@
 import React from "react"
 import Header from "../components/header"
-import Seo from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from "../components/layout"
 
 export default function Skills() {
   return (
     <div id="content">
-      <Seo title="Skills and Tools" />
       <Layout pageProp="skills">
         <div id="page">
           <Header headerText="Skills" className="centered" />
@@ -30,3 +29,7 @@ export default function Skills() {
     </div>
   );
 }
+
+export const Head = () => (
+  <Seo title="Skills and Tools" />
+)

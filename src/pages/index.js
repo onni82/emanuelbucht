@@ -1,13 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import Header from "../components/header"
-import Seo from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from "../components/layout"
 
 export default function Home() {
   return (
     <div id="content">
-      <Seo title="Home" />
       <Layout pageProp="home">
         <div id="page">
           <Header headerText="Do You Need A Music Producer, Audio Engineer, Voice Actor, Or Web Developer?" className="centered" />
@@ -20,3 +19,7 @@ export default function Home() {
     </div>
   );
 }
+
+export const Head = () => (
+  <Seo title="Home" />
+)

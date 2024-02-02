@@ -1,12 +1,11 @@
 import React from "react"
 import Header from "../components/header"
-import Seo from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from "../components/layout"
 
 export default function Contact() {
   return (
     <div id="content">
-      <Seo title="About & Contact" />
       <Layout pageProp="contact">
         <div id="page">
           <Header headerText="About &amp; Contact" className="centered" />
@@ -26,3 +25,7 @@ export default function Contact() {
     </div>
   );
 }
+
+export const Head = () => (
+  <Seo title="About & Contact" />
+)

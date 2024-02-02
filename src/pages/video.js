@@ -1,12 +1,11 @@
 import React from "react"
 import Header from "../components/header"
-import Seo from "../components/seo"
+import { Seo } from "../components/seo"
 import Layout from "../components/layout"
 
 export default function Video() {
   return (
     <div id="content">
-      <Seo title="Video Production" />
       <Layout pageProp="video">
         <div id="page">
           <Header headerText="Video Production" className="centered" />
@@ -27,3 +26,7 @@ export default function Video() {
     </div>
   );
 }
+
+export const Head = () => (
+  <Seo title="Video Production" />
+)
